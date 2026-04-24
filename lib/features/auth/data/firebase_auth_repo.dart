@@ -4,7 +4,6 @@ import 'package:social_media_app/features/auth/domain/repos/auth_repo.dart';
 class FirebaseAuthRepo implements AuthRepo {
   @override
   Future<AppUser?> loginWithEmailPassword(String email, String password) {
-    // TODO: implement loginWithEmailPassword
     throw UnimplementedError();
   }
 
@@ -14,7 +13,6 @@ class FirebaseAuthRepo implements AuthRepo {
     String email,
     String password,
   ) {
-    // TODO: implement registerWithEmailPassword
     throw UnimplementedError();
   }
 
