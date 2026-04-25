@@ -18,11 +18,13 @@ class FirebaseAuthRepo implements AuthRepo {
 
   @override
   Future<void> logout() {
+    // TODO: implement logout
     throw UnimplementedError();
   }
 
   @override
   Future<AppUser?> getCurrentUser() {
+    // TODO: implement getCurrentUser
     throw UnimplementedError();
   }
 }
